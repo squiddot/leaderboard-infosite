@@ -1,5 +1,5 @@
 <template>
-  <nav class="nav-link-container dark:text-gray-300">
+  <nav class="nav-link-container">
     <NavLink v-for="navLink in navLinks" v-bind="navLink" :key="navLink.name">
       {{ navLink.name }}
     </NavLink>
@@ -11,6 +11,7 @@ import { defineComponent } from '@nuxtjs/composition-api';
 import NavLink from './NavLink/NavLink.vue';
 
 export default defineComponent({
+  name: 'NavLinks',
   components: {
     NavLink,
   },
@@ -32,8 +33,4 @@ export default defineComponent({
 });
 </script>
 
-<style scoped>
-.nav-link-container {
-  @apply flex flex-col lg:flex-row items-center w-auto space-y-2 lg:space-y-0 text-center text-black;
-}
-</style>
+<style scoped></style>

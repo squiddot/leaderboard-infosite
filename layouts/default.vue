@@ -1,7 +1,19 @@
 <template>
-  <div class="dark:bg-gray-800 flex flex-col h-screen mx-auto">
+  <div class="flex flex-col mx-auto h-screen">
     <SiteNavbar />
     <Nuxt />
     <SiteFooter />
   </div>
 </template>
+
+<script lang="ts">
+import { defineComponent } from '@nuxtjs/composition-api';
+import SiteFooter from '@/components/blocks/SiteFooter/SiteFooter.vue';
+import SiteNavbar from '@/components/blocks/SiteNavbar/SiteNavbar.vue';
+export default defineComponent({
+  components: {
+    SiteFooter,
+    SiteNavbar,
+  },
+});
+</script>

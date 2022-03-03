@@ -1,6 +1,17 @@
-# Leaderboards.gg
+# Leaderboards.gg Info Site
 
-A fully open-sourced speedrun and high-score leaderboard website!
+This is the repo for the current info-site sitting at https://info.leaderboards.gg
+
+### References
+
+Other Repos:
+
+- Main Site - https://github.com/leaderboardsgg/leaderboard-site
+- Backend - https://github.com/leaderboardsgg/leaderboard-backend-poc
+
+Other Links:
+
+- Discord - https://discord.leaderboards.gg
 
 ## Build Setup
 

@@ -1,12 +1,5 @@
 <template>
-  <div
-    class="
-      flex flex-grow
-      justify-center
-      p-5
-      dark:bg-gray-800 dark:text-gray-300
-    "
-  >
+  <div class="flex flex-grow justify-center p-5">
     <div class="w-full rounded border border-gray-300 p-5">
       <h2 class="text-2xl text-center font-bold">Welcome!</h2>
       <p class="leading-5">
