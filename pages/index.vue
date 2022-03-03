@@ -1,8 +1,8 @@
 <template>
-  <div class="flex flex-grow justify-center p-5">
-    <div class="w-full rounded border border-gray-300 p-5">
-      <h2 class="text-2xl text-center font-bold">Welcome!</h2>
-      <p class="leading-5">
+  <div>
+    <div>
+      <h2>Welcome!</h2>
+      <p>
         We are planning on creating an <i>open-sourced</i> speedrun leaderboard
         system!<br />
         Currently development is still on-going and won't be anything outward
@@ -12,8 +12,8 @@
         updated with the development status!
       </p>
 
-      <h3 class="m-5 text-2xl text-center font-bold">Our Mission</h3>
-      <p class="leading-6">
+      <h3>Our Mission</h3>
+      <p>
         This project was started with the goal of improving the speedrun
         community as a whole. Ever since the beginning of
         <a href="https://speedrun.com">speedrun.com</a>, people have had many
@@ -85,7 +85,4 @@ export default {
 </script>
 
 <style scoped>
-a {
-  @apply dark:text-blue-500 text-blue-800  hover:underline;
-}
 </style>
